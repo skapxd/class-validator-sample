@@ -22,6 +22,3 @@ const convertedClass = plainToClass(Todo, jsonData);
 
 validate(convertedClass)
 .then((errors) => console.log('then: ',errors))
-
-
-
